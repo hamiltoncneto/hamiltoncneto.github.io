@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://olamundo.org/video/aws-this-week-4-february-2018/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://olamundo.org/page/about/</loc>
     <lastmod>2018-02-07T00:27:32-03:00</lastmod>
   </url>
@@ -13,6 +18,12 @@
   </url>
   
   <url>
+    <loc>https://olamundo.org/author/a-cloud-guru/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://olamundo.org/article/</loc>
     <lastmod>2018-02-06T22:50:34-03:00</lastmod>
     <priority>0</priority>
@@ -20,11 +31,25 @@
   
   <url>
     <loc>https://olamundo.org/author/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olamundo.org/categories/aws/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olamundo.org/categories/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olamundo.org/categories/cloud/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +61,7 @@
   
   <url>
     <loc>https://olamundo.org/</loc>
-    <lastmod>2018-02-07T00:27:32-03:00</lastmod>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,6 +73,12 @@
   
   <url>
     <loc>https://olamundo.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olamundo.org/video/</loc>
+    <lastmod>2018-02-07T10:31:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
