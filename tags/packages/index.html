@@ -108,13 +108,46 @@
     </div>
 
     
-        Olá, Mundo!
-Sou novo no mundo do node e na instalação de seus pacotes e acabei empacado em um projetinho, pois sempre ficava dando erro de permissão na escrita de pastas já que meu node estava usando as configuraçẽs do SO, ou seja, tentando escrever em pastas que meu usário não possuia acesso.
-Portanto encontrei um forma de informar ao meu terminal para usar o PATH do meu usuário e não mais o do SO para instalar pacotes NPM e agora está tudo rodando liso.
+        <p>Olá, Mundo!</p>
 
-        
-            <a href="/article/instalando-npm-packages-sem-sudo-no-macos-e-linux/" class="more"></a>
-        
+<p>Sou novo no mundo do node e na instalação de seus pacotes e acabei empacado em um projetinho, pois sempre ficava dando erro de permissão na escrita de pastas já que meu node estava usando as configuraçẽs do SO, ou seja, tentando escrever em pastas que meu usário não possuia acesso.</p>
+
+<p>Portanto encontrei um forma de informar ao meu terminal para usar o PATH do meu usuário e não mais o do SO para instalar pacotes NPM e agora está tudo rodando liso.</p>
+
+<p>Então sem muita enrolação, quem estiver tendo problemas como eu de instalar pacotes NPM com uma mensagem parecida com essa:</p>
+
+<blockquote>
+<p>npm ERR! Error: EACCES: permission denied, access &lsquo;/home/user/&hellip;&rsquo;</p>
+</blockquote>
+
+<p>Pode tentar resolver da seguinte forma <strong>por sua conta e risco :D</strong></p>
+
+<p>Passo 1 (se não existir):</p>
+
+<pre><code>$ mkdir &quot;${HOME}/.npm-packages&quot;
+</code></pre>
+
+<p>Passo 2:</p>
+
+<p>Adicionar no seu <strong>.bashrc</strong> ou <strong>.zshrc</strong> as seguintes linhas</p>
+
+<pre><code>NPM_PACKAGES=&quot;${HOME}/.npm-packages&quot;
+PATH=&quot;$NPM_PACKAGES/bin:$PATH&quot;
+# Unset manpath so we can inherit from /etc/manpath via the `manpath` command
+unset MANPATH # delete if you already modified MANPATH elsewhere in your config
+export MANPATH=&quot;$NPM_PACKAGES/share/man:$(manpath)&quot;
+</code></pre>
+
+<p>Passo 3:</p>
+
+<p>Salve o arquivo e carregue novamente seu terminal</p>
+
+<p>Pronto, agora o problema deve estar corrigido e ao rodar o comando npm install no seu projeto não deverá mais acontecer o erro de permissão.</p>
+
+<p>O link original segue <a href="https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md" title="Install npm packages globally without sudo on macOS and Linux">aqui</a></p>
+
+<p>Espero ter ajudado e até a próxima.</p>
+
     
 </div>
 

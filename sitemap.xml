@@ -111,19 +111,13 @@
   </url>
   
   <url>
-    <loc>https://olamundo.org/categories/linux/</loc>
-    <lastmod>2018-04-04T11:08:48-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://olamundo.org/tags/linux/</loc>
     <lastmod>2018-04-04T11:08:48-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://olamundo.org/categories/macos/</loc>
+    <loc>https://olamundo.org/categories/linux/</loc>
     <lastmod>2018-04-04T11:08:48-03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -135,13 +129,19 @@
   </url>
   
   <url>
-    <loc>https://olamundo.org/categories/npm/</loc>
+    <loc>https://olamundo.org/categories/macos/</loc>
     <lastmod>2018-04-04T11:08:48-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://olamundo.org/tags/npm/</loc>
+    <lastmod>2018-04-04T11:08:48-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://olamundo.org/categories/npm/</loc>
     <lastmod>2018-04-04T11:08:48-03:00</lastmod>
     <priority>0</priority>
   </url>
